@@ -22,4 +22,5 @@ class Test(unittest.TestCase):
     # We should just be able to input water and flour as well as set the timing
     # for the baking and eventually output naan
     def test_run_factory(self):
-        self.assertEqual(self.factory.run_factory("water", "flour", 5), "naan")    
+        self.assertEqual(self.factory.run_factory("water", "flour", 5), "naan")   
+         
