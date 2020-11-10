@@ -156,6 +156,8 @@ FAILED test_factory.py::Test::test_run_factory - AttributeError: 'NaanFactory' o
         return r
 ```
 
+<br>
+
 - We can now run the test again. We use ```pytest -v``` to get more information:
 ```
 PS C:\Users\Jared\Documents\GitHub\active\bread_factory_task> pytest -v
