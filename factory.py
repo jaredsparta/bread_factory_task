@@ -26,10 +26,3 @@ class NaanFactory:
         bake_what = self.make_dough(input1, input2)
         r = self.bake_dough(bake_what, time)
         return r
-        
-f = NaanFactory()
-d = f.make_dough("water", "flour")
-print(d)
-d_b = f.bake_dough(d, 5)
-print(d_b)
-print(f.run_factory("flour", "water", 5))
