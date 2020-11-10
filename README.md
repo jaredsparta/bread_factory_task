@@ -26,7 +26,12 @@ As a user, I can user the run factory with water and flour and get naan.
 - But the factory should also have the option to simply run by itself with a method. All one would need to do is simply input water, flour and set the baking time.
 - This is what I implemented
 
-**Explanation**
+# Explanation
+
+**Pre-requisites**
+- This program requires ```pytest``` to run tests. Use ```pip install pytest``` to install it in your environment.
+
+**The program**
 - Firstly, we must create a test class in a file called ```test_factory.py```
 
 <br>
